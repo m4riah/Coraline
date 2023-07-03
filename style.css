@@ -154,7 +154,8 @@ body {
 }
 
 .sobre {
-    margin-left: 50px;
+    margin-top: 80px;
+    margin-left: 80px;
 }
 
 
@@ -170,4 +171,11 @@ body {
     font-family: 'Ysabeau', sans-serif;
     color: rgb(255, 255, 255);
     font-size: 25px;
+}
+
+.capa img {
+    float: right;
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 20px #38537e2d;
 }
