@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Ysabeau&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="/img/button.png">    
     <title>Coraline e o mundo secreto</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -56,9 +60,21 @@
                 Todos têm botões no lugar dos olhos, os pais são carinhosos e os sonhos de Coraline viram realidade por lá. Ela se encanta com essa descoberta, mas logo percebe que segredos estranhos estão em ação: uma outra mãe e o resto de sua família tentam mantê-la eternamente nesse mundo paralelo.</p>
         </div>
     </div>
-       <div class="capa">
-            <img src="/img/coraline-capa.jpg" alt="">
-        </div> 
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+            <!-- Slides -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/coraline-capa.jpg" alt="Imagem 1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/coraline-e-wybie.jpg" alt="Imagem 2">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/coraline-passagem-azul.jpg" alt="Imagem 3">
+              </div>
+            </div>
+          </div>
+          
     </div>
 </body>
 </html>
