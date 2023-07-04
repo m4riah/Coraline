@@ -143,7 +143,7 @@ body {
     align-items: center;
     display: flex;
     justify-content: space-around;
-    box-shadow: 0 20px 20px rgba(11, 13, 15, 0.103);
+    box-shadow: 0 20px 20px rgba(11, 13, 15, 0.082);
 }
 
 
@@ -154,7 +154,7 @@ body {
     font-weight: 200;
     font-size: 50px;
     margin-left: 10px;
-    text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.521);
+    text-shadow: 5px 2px 5px rgba(29, 29, 29, 0.521);
 }
 
 .p-sobre{
@@ -182,14 +182,14 @@ body {
 }
 
 .h1 {
-  margin-top: 70px;
+  margin-top: 60px;
   display: flex;
   position: relative;
   margin-right: 120px;
 }
 
 .h1 h1 {
-  font-size: 70px;
+  font-size: 60px;
   color: #e0dcf5;
   font-family: 'Ysabeau Office', sans-serif;
   margin-right: 20px;
