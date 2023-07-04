@@ -153,6 +153,7 @@ body {
     font-weight: 200;
     font-size: 50px;
     margin-left: 10px;
+    text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.521);
 }
 
 .p-sobre{
@@ -172,3 +173,43 @@ body {
   width: 520px; 
   object-fit: cover; 
 }
+
+.h1-personagens {
+  display: flex;
+  align-items: center;
+  float: right;
+}
+
+.h1 {
+  margin-top: 100px;
+  display: flex;
+  position: relative;
+}
+
+.h1 h1 {
+  font-size: 70px;
+  color: #e0dcf5;
+  font-family: 'Ysabeau Office', sans-serif;
+  margin-right: 20px;
+  text-shadow: 5px 2px 5px rgba(8, 8, 8, 0.719);
+}
+
+.passaro {
+  width: 100%;
+  margin-right: 100px;
+}
+
+.passaro img {
+  width: 60px;
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+	0%,100%{
+		transform:translatey(0)
+	}
+	50%{
+		transform:translatey(-20px)
+	}
+}
+
