@@ -183,6 +183,7 @@ body {
 
 .select-personagens img {
   flex: 1;
+  margin-left: 6px;
   margin-right: 20px;
   max-width: 90px; 
   height: auto;
