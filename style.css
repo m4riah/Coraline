@@ -206,7 +206,7 @@ body {
   position: relative;
   width: 500px;
   height: 500px;
-  background-color: #ccc;
+  background-color: #CED1D1;
   border: none;
   overflow: hidden;
   right: 80px;
@@ -253,9 +253,9 @@ body {
 }
 
 .info-personagens {
-  display: flex;
   position: relative;
   width: 100%;
+  display: flex;
 }
 
 .personagem img {
@@ -264,4 +264,60 @@ body {
   width: 240px;
   margin-top: 110px;
   margin-left: 210px;
+}
+
+#mae-coraline {
+  display: none;
+}
+
+.card-info {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  width: 460px;
+  background-color: #C2AD3A;
+  height: 300px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 20px 20px #7e79382d;
+}
+
+.card-info h1 {
+  margin-top: 20px;
+  font-family: 'Geologica', sans-serif;
+  color: #ffffff;
+  text-shadow: 5px 2px 5px rgba(29, 29, 29, 0.521);
+}
+
+.p-card {
+  padding: 5px;
+  width: 100%;
+  font-size: 30px;
+  color: #ffffff;
+  margin-top: 20px;
+  font-family: 'Ysabeau', sans-serif;
+  text-shadow: 5px 2px 5px rgba(29, 29, 29, 0.521);
+}
+
+.img-rato {
+    position: absolute;
+    top: -90px; /* Ajuste a posição vertical conforme necessário */
+    left: -10px; /* Ajuste a posição horizontal conforme necessário */
+    width: calc(100% + 50px); /* Aumenta a largura para incluir o efeito de "sair" do card */
+    height: calc(100% + 50px); /* Aumenta a altura para incluir o efeito de "sair" do card */
+    overflow: hidden;
+}
+
+.img-rato img {
+  display: block;
+  width: 140px;
+  transform: scaleX(-1);
+  float: right;
+  object-fit: cover;
+}
+
+h1, .p-card {
+  position: relative;
+  z-index: 2;
 }
