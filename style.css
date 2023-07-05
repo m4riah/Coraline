@@ -184,7 +184,7 @@ body {
 .select-personagens img {
   flex: 1;
   margin-left: 10px;
-  margin-right: 15px;
+  margin-right: 17px;
   max-width: 85px; 
   height: auto;
   cursor: pointer;
@@ -266,10 +266,6 @@ body {
   margin-left: 210px;
 }
 
-#mae-coraline {
-  display: none;
-}
-
 .card-info {
   position: absolute;
   top: 50%;
@@ -320,4 +316,8 @@ body {
 h1, .p-card {
   position: relative;
   z-index: 2;
+}
+
+#mae-coraline {
+  display: none;
 }
