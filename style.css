@@ -185,7 +185,7 @@ body {
   flex: 1;
   margin-left: 10px;
   margin-right: 15px;
-  max-width: 83px; 
+  max-width: 85px; 
   height: auto;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
@@ -302,8 +302,8 @@ body {
 
 .img-rato {
     position: absolute;
-    top: -90px; /* Ajuste a posição vertical conforme necessário */
-    left: -10px; /* Ajuste a posição horizontal conforme necessário */
+    top: -90px; /* Ajuste a posição vertical */
+    left: -10px; /* Ajuste a posição horizontal */
     width: calc(100% + 50px); /* Aumenta a largura para incluir o efeito de "sair" do card */
     height: calc(100% + 50px); /* Aumenta a altura para incluir o efeito de "sair" do card */
     overflow: hidden;
