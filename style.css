@@ -193,3 +193,63 @@ body {
 .select-personagens img:hover {
   transform: scale(1.1);
 }
+
+.container-button {
+  margin-top: 60px;
+  width: 100%;
+  display: flex;
+}
+
+.button {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.hole {
+  position: absolute;
+  background-color: #010130;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.hole:nth-child(1),
+.hole:nth-child(2) {
+  top: 40%;
+}
+
+.hole:nth-child(1) {
+  left: 35%;
+}
+
+.hole:nth-child(2) {
+  left: 65%;
+}
+
+.hole:nth-child(3),
+.hole:nth-child(4) {
+  top: 60%;
+}
+
+.hole:nth-child(3) {
+  left: 35%;
+}
+
+.hole:nth-child(4) {
+  left: 65%;
+}
+
+.info-personagens {
+  width: 100%;
+}
