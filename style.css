@@ -178,7 +178,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 90px;
+  margin-top: 70px;
 }
 
 .select-personagens img {
@@ -206,7 +206,6 @@ body {
   height: 400px;
   background-color: #ccc;
   border: none;
-  cursor: pointer;
   overflow: hidden;
   border-radius: 50%;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
