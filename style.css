@@ -197,8 +197,9 @@ body {
 
 .container-button {
   margin-top: 160px;
-  width: 100%;
   display: flex;
+  position: absolute;
+  z-index: 1;
 }
 
 .button {
@@ -252,5 +253,15 @@ body {
 }
 
 .info-personagens {
+  display: flex;
+  position: relative;
   width: 100%;
+}
+
+.personagem img {
+  position: relative;
+  z-index: 2;
+  width: 200px;
+  margin-top: 120px;
+  margin-left: 180px;
 }
