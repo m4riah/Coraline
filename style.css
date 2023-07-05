@@ -184,7 +184,7 @@ body {
 .select-personagens img {
   flex: 1;
   margin-right: 30px;
-  max-width: 80px; 
+  max-width: 90px; 
   height: auto;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
@@ -195,7 +195,7 @@ body {
 }
 
 .container-button {
-  margin-top: 60px;
+  margin-top: 160px;
   width: 100%;
   display: flex;
 }
@@ -207,6 +207,7 @@ body {
   background-color: #ccc;
   border: none;
   overflow: hidden;
+  right: 60px;
   border-radius: 50%;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
