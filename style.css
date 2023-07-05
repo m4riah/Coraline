@@ -184,7 +184,7 @@ body {
 .select-personagens img {
   flex: 1;
   margin-right: 35px;
-  max-width: 100px; 
+  max-width: 60px; 
   height: auto;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
