@@ -18,7 +18,7 @@ function selectCharacter(character) {
         document.getElementById('criancas').style.display = 'none';
     } else if (character === 'maeCoraline') {
         document.getElementById('coraline').style.display = 'none';
-        document.getElementById('maeCoraline').style.display = 'block';
+        document.getElementById('maeCoraline').style.display = 'inline-block';
         document.getElementById('paiCoraline').style.display = 'none';
         document.getElementById('wybie').style.display = 'none';
         document.getElementById('mrbobinsky').style.display = 'none';
