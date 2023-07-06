@@ -399,8 +399,3 @@ h1, .p-card {
 .container-card {
   float: right;
 }
-
-/* .container-card {
-  position: relative;
-  float: right; 
-  margin-right: 500px; /* Ajusta a margem direita para espaçamento */
