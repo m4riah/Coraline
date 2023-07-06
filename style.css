@@ -195,6 +195,12 @@ body {
   transform: scale(1.1);
 }
 
+.container {
+  width: 100%;
+  margin: 0;
+
+}
+
 .container-button {
   margin-top: 150px;
   display: flex;
@@ -209,7 +215,7 @@ body {
   background-color: #CED1D1;
   border: none;
   overflow: hidden;
-  right: 80px;
+  right: 100px;
   border-radius: 50%;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
@@ -254,24 +260,21 @@ body {
 
 .info-personagens {
   position: relative;
-  width: 100%;
+  width: 50%;
   display: flex;
 }
 
 .personagem img {
   position: relative;
   z-index: 2;
-  width: 240px;
   margin-top: 110px;
   margin-left: 210px;
 }
 
 .card-info {
-  position: absolute;
   top: 50%;
-  left: 70%;
   transform: translate(-50%, -50%);
-  width: 460px;
+  width: 400px;
   background-color: #C2AD3A;
   height: 300px;
   text-align: center;
@@ -318,6 +321,86 @@ h1, .p-card {
   z-index: 2;
 }
 
-#mae-coraline {
+#maeCoraline,
+#paiCoraline,
+#wybie, 
+#mrbobinsky,
+#gato,
+#outraMae,
+#outroPai,
+#outroWybie,
+#outroMrbobinsky,
+#criancas {
   display: none;
 }
+
+.personagem #coraline {
+  top: 30px;
+  width: 230px;
+}
+
+.personagem #paiCoraline {
+  width: 340px;
+  margin-left: 170px;
+}
+
+.personagem #maeCoraline {
+  width: 260px;
+  margin-left: 200px;
+  transform: scaleX(-1);  /* inverter o lado da img */
+}
+
+.personagem #wybie {
+ top: 120px;
+ width: 270px;
+ margin-left: 260px;
+ transform: scaleX(-1);
+}
+
+.personagem #mrbobinsky{
+  top: 20px;
+  width: 300px;
+  transform: scaleX(-1);
+}
+
+.personagem #gato {
+  top: 280px;
+  width: 240px;
+  margin-left: 220px;
+  transform: scaleX(-1);
+}
+
+.personagem #outraMae {
+  top: 30px;
+  width: 240px;
+}
+
+.personagem #outroPai {
+  width: 170px;
+  margin-left: 240px;
+  top: 30px;
+}
+
+.personagem #outroWybie{
+  top: 200px;
+  width: 280px;
+}
+
+.personagem #outroMrbobinsky {
+  top: 20px;
+  width: 350px;
+}
+
+.personagem #criancas {
+  top: 100px;
+  width: 470px;
+}
+
+.container-card {
+  float: right;
+}
+
+/* .container-card {
+  position: relative;
+  float: right; 
+  margin-right: 500px; /* Ajusta a margem direita para espaçamento */

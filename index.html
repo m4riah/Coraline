@@ -18,7 +18,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="/js/script.js"></script>
 </head>
 <body>
 
@@ -98,19 +97,20 @@
     </div>
 
         <div class="select-personagens">
-            <img src="/img-round/Coraline.png" alt="coraline" data-image="/img/coraline.png">
-            <img src="/img-round/mae.png" alt="mae-1" data-image="/img/mae-real.png" onclick="">
-            <img src="/img-round/Pai.png" alt="pai-1" data-image="/img/pai-coraline.png">
-            <img src="/img-round/Wybie.png" alt="wybie-1" data-image="/img/wybie-coraline.png">
-            <img src="/img-round/mr-bob.png" alt="mrb-1" data-image="/img/mrB-coraline.png">
-            <img src="/img-round/Gato.png" alt="gato" data-image="/img/cat-coraline.png">
-            <img src="/img-round/outra-mae.png" alt="mae-2" data-image="/img/the-beldam.webp">
-            <img src="/img-round/outro-pai.png" alt="pai-2" data-image="/img/other-father.webp">
-            <img src="/img-round/outro-wybie.png" alt="wybie-2" data-image="/img/other-wybie.png">
-            <img src="/img-round/MR.png" alt="mrb-2" data-image="/img/other-mr-bobinsky.png">
-            <img src="/img-round/crianças-fantasmas.png" alt="criancas" data-image="/img/fantasmas.png">
+            <img src="/img-round/Coraline.png" alt="coraline" data-image="/img/coraline.png" onclick="selectCharacter('coraline')">
+            <img src="/img-round/mae.png" alt="mae-1" data-image="/img/mae-real.png" onclick="selectCharacter('mae')">
+            <img src="/img-round/Pai.png" alt="pai-1" data-image="/img/pai-coraline.png" onclick="selectCharacter('pai')">
+            <img src="/img-round/Wybie.png" alt="wybie-1" data-image="/img/wybie-coraline.png" onclick="selectCharacter('wybie')">
+            <img src="/img-round/mr-bob.png" alt="mrb-1" data-image="/img/mrB-coraline.png" onclick="selectCharacter('mrbobinsky')">
+            <img src="/img-round/Gato.png" alt="gato" data-image="/img/cat-coraline.png" onclick="selectCharacter('gato')">
+            <img src="/img-round/outra-mae.png" alt="mae-2" data-image="/img/the-beldam.webp" onclick="selectCharacter('outraMae')">
+            <img src="/img-round/outro-pai.png" alt="pai-2" data-image="/img/other-father.webp" onclick="selectCharacter('outroPai')">
+            <img src="/img-round/outro-wybie.png" alt="wybie-2" data-image="/img/other-wybie.png" onclick="selectCharacter('outroWybie')">
+            <img src="/img-round/MR.png" alt="mrb-2" data-image="/img/other-mr-bobinsky.png" onclick="selectCharacter('outroMrbobinsky')">
+            <img src="/img-round/crianças-fantasmas.png" alt="criancas" data-image="/img/fantasmas.png" onclick="selectCharacter('criancas')">
         </div>
 
+        <div class="container">
         <div class="info-personagens">
             <div class="container-button">
                 <div class="button">
@@ -121,9 +121,21 @@
                 </div>
               </div>
             <div class="personagem">
-                <img id="coraline" src="/img/coraline.png" alt="">
-                <img id="mae-coraline" src="/img/mae-real.png" alt="">
+                <img  class="personagem-img"  id="coraline" src="/img/coraline.png" alt="">
+                <img  class="personagem-img"  id="maeCoraline" src="/img/mae-real.png" alt="">
+                <img  class="personagem-img" id="paiCoraline" src="/img/pai-coraline.png" alt="">
+                <img  class="personagem-img"  id="wybie" src="/img/wybie-coraline.png" alt="">
+                <img  class="personagem-img"  id="mrbobinsky" src="/img/MrB-coraline.png" alt="">
+                <img  class="personagem-img" id="gato" src="/img/cat-coraline.png" alt="">
+                <img  class="personagem-img"  id="outraMae" src="/img/the-beldam.webp" alt="">
+                <img  class="personagem-img" id="outroPai" src="/img/other-father.webp" alt="">
+                <img  class="personagem-img"  id="outroWybie" src="/img/other-wybie.png" alt="">
+                <img  class="personagem-img"  id="outroMrbobinsky" src="/img/other-mr-bobinsky.png" alt="">
+                <img  class="personagem-img" id="criancas" src="/img/fantamas.png" alt="">+
             </div>
+        </div>
+        
+        <div class="container-card">
             <div class="card-info">
                 <div class="img-rato">
                     <img src="/img/rato-coraline.webp" alt="">
@@ -135,6 +147,8 @@
                 </div>
             </div>
         </div>
-      
+    </div>
+
+        <script src="/js/script.js"></script>
 </body>
 </html>
