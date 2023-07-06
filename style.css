@@ -322,7 +322,6 @@ h1, .p-card {
 }
 
 #maeCoraline,
-#paiCoraline,
 #wybie, 
 #mrbobinsky,
 #gato,
@@ -331,6 +330,10 @@ h1, .p-card {
 #outroWybie,
 #outroMrbobinsky,
 #criancas {
+  display: none;
+}
+
+#paiCoraline {
   display: none;
 }
 
