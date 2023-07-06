@@ -16,7 +16,7 @@ function selectCharacter(character) {
         document.getElementById('outroWybie').style.display = 'none';
         document.getElementById('outroMrbobinsky').style.display = 'none';
         document.getElementById('criancas').style.display = 'none';
-    } else if (character === 'mae') {
+    } else if (character === 'maeCoraline') {
         document.getElementById('coraline').style.display = 'none';
         document.getElementById('maeCoraline').style.display = 'block';
         document.getElementById('paiCoraline').style.display = 'none';
