@@ -216,7 +216,8 @@ transform: scale(1.1);
   overflow: hidden;
   right: 100px;
   border-radius: 50%;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 15px 15px 30px #060624,
+  -15px -15px 30px #02011d;
 }
 
 .hole {
@@ -228,7 +229,7 @@ transform: scale(1.1);
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 .hole:nth-child(1),
