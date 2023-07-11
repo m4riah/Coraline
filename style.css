@@ -361,6 +361,8 @@ margin-left: 100px;
 .card {
 margin-left: 260px;
 margin-top: 190px;
+width: 430px;
+height: 300px;
 transform: translate(-50%, -50%);
 background-color: #3B5166;
 text-align: center;
@@ -378,7 +380,7 @@ box-shadow: 0 20px 20px #5f5f5e2d;
 .card p {
 padding: 10px;
 width: 100%;
-font-size: 30px;
+font-size: 18px;
 color: #c4c3c3;
 margin-top: 15px;
 font-family: 'Ysabeau', sans-serif;
