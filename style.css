@@ -362,12 +362,13 @@ margin-left: 100px;
 margin-left: 260px;
 margin-top: 190px;
 width: 430px;
-height: 318px;
+height: 320px;
 transform: translate(-50%, -50%);
-background-color: #3B5166;
 text-align: center;
-border-radius: 20px;
-box-shadow: 0 20px 20px #5f5f5e2d;
+border-radius: 30px;
+background: #0d0142;
+box-shadow: 15px 15px 30px #060624,
+           -15px -15px 30px #02011d;
 }
 
 .card h2 {
