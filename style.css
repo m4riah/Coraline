@@ -360,31 +360,29 @@ margin-left: 100px;
 
 .card {
 margin-left: 260px;
-margin-top: 150px;
+margin-top: 190px;
 transform: translate(-50%, -50%);
-width: 400px;
-background-color: #C2AD3A;
-height: 300px;
+background-color: #3B5166;
 text-align: center;
 border-radius: 20px;
-box-shadow: 0 20px 20px #7e79382d;
+box-shadow: 0 20px 20px #5f5f5e2d;
 }
 
 .card h2 {
   margin-top: 20px;
   font-family: 'Geologica', sans-serif;
-  color: #ffffff;
+  color: rgb(252, 242, 249);
   text-shadow: 5px 2px 5px rgba(29, 29, 29, 0.521);
 }
 
 .card p {
-padding: 5px;
+padding: 10px;
 width: 100%;
 font-size: 30px;
-color: #fdf6f6;
-margin-top: 20px;
+color: #c4c3c3;
+margin-top: 15px;
 font-family: 'Ysabeau', sans-serif;
-text-shadow: 5px 2px 5px rgba(29, 29, 29, 0.521);
+text-shadow: 5px 2px 5px rgba(104, 104, 104, 0.521);
 }
 
 .img-rato {
