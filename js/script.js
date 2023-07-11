@@ -78,3 +78,32 @@ function textCard(character) {
         document.getElementById('descricao-personagem').textContent = personagem.descricao;
     }
 }
+
+window.addEventListener('DOMContentLoaded', function() {
+    const wrapper = document.querySelector('.wrapper');
+    const images = Array.from(wrapper.querySelectorAll('img'));
+    const imageWidth = images[0].offsetWidth; // Obtém a largura de uma imagem
+  
+    // Clona as imagens e adiciona-as ao final do wrapper
+    images.forEach(function(image) {
+      const clone = image.cloneNode(true);
+      wrapper.appendChild(clone);
+    });
+  
+    let currentPosition = 0;
+  
+    function animate() {
+      currentPosition -= 1; // Ajuste a velocidade da rolagem alterando o valor
+      wrapper.style.transform = `translateX(${currentPosition}px)`;
+  
+      if (currentPosition <= -wrapper.offsetWidth) {
+        currentPosition = 0;
+        wrapper.style.transform = 'translateX(0)';
+      }
+  
+      requestAnimationFrame(animate);
+    }
+  
+    animate();
+  });
+  
