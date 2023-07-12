@@ -197,6 +197,7 @@ transform: scale(1.1);
 
 .container {
   width: 100%;
+  height: auto;
   margin: 0;
 }
 
@@ -404,17 +405,6 @@ width: 140px;
 transform: scaleX(-1);
 float: right;
 object-fit: cover;
-}
-
-.h1-cenas{
-  margin-top: 200px;
-  margin-left: 30px;
-}
-
-.h1-cenas h1 {
-  color: #c4c3c3;
-  font-family: 'Montserrat', sans-serif;
-  text-shadow: 5px 2px 5px rgba(71, 67, 67, 0.521);
 }
 
 .container-slider {

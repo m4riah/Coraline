@@ -93,7 +93,7 @@ window.addEventListener('DOMContentLoaded', function() {
     let currentPosition = 0;
   
     function animate() {
-      currentPosition -= 1; // Ajuste a velocidade da rolagem alterando o valor
+      currentPosition -= 0.9; // velocidade da rolagem 
       wrapper.style.transform = `translateX(${currentPosition}px)`;
   
       if (currentPosition <= -wrapper.offsetWidth) {
