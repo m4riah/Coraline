@@ -24,6 +24,8 @@ function selectCharacter(character) {
     textCard(character)
 }
 
+// Function muda as informações do card cada vez que muda de personagem
+
 function textCard(character) {
     var personagens = {
         'coraline': {

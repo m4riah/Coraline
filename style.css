@@ -375,7 +375,8 @@ box-shadow: 15px 15px 30px #060624,
 
 .card h2 {
   margin-top: 20px;
-  font-family: 'Geologica', sans-serif;
+  font-family: 'Cinzel', serif;
+  font-size: 27px;
   color: rgb(252, 242, 249);
   text-shadow: 5px 2px 5px rgba(29, 29, 29, 0.521);
 }
@@ -426,7 +427,7 @@ object-fit: cover;
 
 
 footer {
-  margin-top: 30px;
+  margin-top: 100px;
   background-color: #0D0142;
   text-align: center;
   color: #ffff;
@@ -453,4 +454,60 @@ footer {
 .social-buttons img {
   width: 25px;
   margin-bottom: 15px;
+}
+
+.info-criacao {
+  margin-top: 100px;
+  width: 100%;
+}
+
+.h2-info-criacao {
+  color: #ffff;
+  font-size: 30px;
+  margin-left: 40px;
+  font-family: 'Cinzel', serif;
+  text-shadow: 5px 2px 5px rgba(29, 29, 29, 0.521);
+}
+
+.p-info-criacao {
+  margin-left: 40px;
+  margin-top: 20px;
+  width: 450px;
+  color: #ffff;
+  font-size: 18px;
+  font-family: 'Ysabeau', sans-serif;
+}
+
+.p-info-criacao2,
+.p-info-criacao3  {
+  margin-left: 40px;
+  color: #ffff;
+  width: 450px;
+  font-size: 18px;
+  margin-top: 5px;
+  font-family: 'Ysabeau', sans-serif;
+}
+ 
+.p-info-criacao4 {
+  margin-left: 40px;
+  color: #ffff;
+  width: 77%;
+  font-size: 18px;
+  margin-top: 5px;
+  font-family: 'Ysabeau', sans-serif;
+}
+
+.img-info-criacao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  float: right;
+  margin-right: 90px;
+}
+
+.img-info-criacao img {
+  width: 340px;
+  padding-bottom: 10px;
+  height: 100%;
+  padding-left: 10px;
+  border-radius: 25px;
 }
