@@ -423,3 +423,34 @@ object-fit: cover;
   margin-left: 5px;
   border-radius: 15px;
 }
+
+
+footer {
+  margin-top: 30px;
+  background-color: #0D0142;
+  text-align: center;
+  color: #ffff;
+  box-shadow: 15px 15px 30px #060624,
+           -15px -15px 30px #02011d;
+}
+
+.p-footer {
+  padding-top: 10px;
+  font-family: 'Ysabeau', sans-serif;
+  text-shadow: 5px 2px 5px rgba(29, 29, 29, 0.521);
+}
+
+.social-buttons {
+  margin-top: 15px;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-buttons a {
+  text-decoration: none;
+}
+
+.social-buttons img {
+  width: 25px;
+  margin-bottom: 15px;
+}
